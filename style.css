@@ -1,0 +1,29 @@
+.head1
+{
+width: 30%;
+font-size: 30px;
+}
+.button1
+{
+width: 25%;
+font-size: 25px;
+}
+@keyframes color
+{
+from
+{
+box-shadow: 0px 0px 30px rgb(3, 144, 244);
+}
+to
+{
+box-shadow: 0px 0px 30px rgb(255, 0, 0);
+}
+}
+canvas
+{
+animation-name:color;
+animation-duration:4s;
+animation-iteration-count: infinite;
+
+}
+
